@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#footer">Contacto</a>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="services contenedor" id="catalogo">
+            <h2 class="subtitulo">Catálogo</h2>
+            <div class="contenedor-servicio">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>HUEVO ÓREO</h3>
+                        <p>Chocolate a elección (semiamargo, leche o blanco)
+                            Base de DDL 
+                            Relleno con Crema cookie (oreo)
+                            Decorado con DDL, chips y tabletas de choco oreo/letra a elección.
+                            ALTERNATIVA APTO VEGANO : Crema de chocolate en reemplazo del ddl.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>HUEVO CHOCODHESIA (100% vegano)</h3>
+                        <p>Chocolate semiamargo
+                            Relleno con crema no láctea y dulce de leche de soja casero. 
+                            y capa de galletas Rodhesia. 
+                            Decorado con pasta de chocolate, chips y tabletas de chocolate/letra de chocolate a elección.  
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>HUEVO GOLOSINERO</h3>
+                        <p> Chocolate a elección (semiamargo, leche o blanco)
+                            Base de DDL 
+                            Relleno con Crema chantilly, rocklets, y confites- 
+                            Decorado con ddl, rocklets, tableta de chocolate/letra de chocolate a elección. 
+                            ALTERNATIVA: todo relleno de ddl, sin crema.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>HUEVO TRUFAS (100% vegano y SIN TACC)</h3>
+                        <p>Chocolate a eleccion (semiamargo, leche o blanco)
+                            Base de crema de chocolate 
+                            Relleno con crema chantilly 
+                            Decorado con trufas de chocolate y coco sin tacc y letra de chocolate a elección. 
+                            ALTERNATIVA: DDL en reemplazo de la crema de chocolate.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>HUEVO CHOCOTORTA</h3>
+                        <p>Chocolate a elección (semiamargo, leche o blanco)
+                            Relleno con capas de chocotorta
+                            Decorado con Chocolina, chips de chocolate y DDL.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>HUEVO BOMBON</h3>
+                        <p>Chocolate a elección (semiamargo, leche o blanco) 
+                            Relleno de ddl. 
+                            ALTERNATIVA SIN TACC/VEGANO: relleno de pasta de chocolate. 
+                            
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>HUEVO CLASICO</h3>
+                        <p>Chocolate a eleccion (semiamargo, leche o blanco)
+                            Relleno con tableta de chocolate, rocklets y confites.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/dos.jpg" class="img-galeria" alt="">
+                    <img src="img/tres.jpg" class="img-galeria" alt="">
+                    <img src="img/cuatro.jpg" class="img-galeria" alt="">
+                    <img src="img/cinco.jpg" class="img-galeria" alt="">
+                    <img src="img/seis.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Un Gusto</h2>
+                    <p>Chocolates</p>
+                </div>
+                <div class="social-media">
+                    <div class="wpp">
+                    <p>Eliana</p>
+                    <a href="https://api.whatsapp.com/send?phone=543513917122" class="social-media-icon">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                </div>
+                <div class="wpp">
+                    <p>Agustina</p>
+                    <a href="https://api.whatsapp.com/send?phone=5493548462768" class="social-media-icon">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                </div>   
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
